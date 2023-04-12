@@ -1,3 +1,9 @@
+
+
+![Image 1](https://user-images.githubusercontent.com/124645643/231342541-1cf93140-f650-41d1-9f5c-415827840a63.jpg)
+
+
+
 **Team Members:** Fabio Marcullo De Lima, Bruna Câmara, Annbell Nakigozi, Yamileth Cova, Rahiq Osman and Joseph Arambula
 
 
@@ -24,11 +30,11 @@ This project used the database CSV files below to create datasets regarding the 
 
 ## Data Cleaning and Exploration
 The data collected was transformed in order to analyze and visualize with Python using the following techniques:
-- Pandas Process: With Pandas, we read the CSV files, parsed conditions using the loc function, transposed the data, used the groupby function to filter the industries and provinces, calculated the measures of central tendency using the aggregate function and also computed statistics for the provinces and industries.  We also calculated the average temperature changes for the different seasons in Quebec, Alberta and Ontario.
+- **Pandas Process:** With Pandas, we read the CSV files, parsed conditions using the loc function, transposed the data, used the groupby function to filter the industries and provinces, calculated the measures of central tendency using the aggregate function and also computed statistics for the provinces and industries.  We also calculated the average temperature changes for the different seasons in Quebec, Alberta and Ontario.
 
-- Matplotlib Process: Using the previously created PANDAS data frames, we created additional layers to parse specific data and this included addition of supplemental groupby functions to organize this data. Once the data was organized we were able to create line and stacked bar graphs using pyplot.
+- **Matplotlib Process:** Using the previously created PANDAS data frames, we created additional layers to parse specific data and this included addition of supplemental groupby functions to organize this data. Once the data was organized we were able to create line and stacked bar graphs using pyplot.
 
-- API Process: The dataset includes Canada temperature that contains climate changes in the different provinces over a period of time from 1989 – 2017. We parsed conditions using the loc function. The dataset was also grouped and sorted based on the season’s average temperature and GHC emissions in the different provinces. 
+- **API Process:** The dataset includes Canada temperature that contains climate changes in the different provinces over a period of time from 1989 – 2017. We parsed conditions using the loc function. The dataset was also grouped and sorted based on the season’s average temperature and GHC emissions in the different provinces. 
 
 
 ### Insights we had while exploring the data 
@@ -52,53 +58,64 @@ Ontario, Quebec and Alberta regions contribute more than 50% of the total emissi
 
 
 
-
-
-
 ## Summary Statistics
 
 
 ## 1.	UN GHG Target vs Canada GHG Emission
 
+![Image 2](https://user-images.githubusercontent.com/124645643/231343250-ead898fc-565c-4747-b5ea-c850f7f27b27.png)
  
 Canada’s gas emissions were initially within the set targets by the UN until after 2004 where Canadas’s emissions increased and exceeded the set gas emissions by the UN.
 
 
+## 2.	Canada Emissions per Industry
 
-
-
-## 2.	Canada’s Sectors Gas Emissions 
+ ![image 3](https://user-images.githubusercontent.com/124645643/231343268-dc7abe22-f053-4f66-a01e-9787257f1fef.png)
  
 The Oil and Gas, Electricity and Transport Industries contributed more than 50% of the total GHG emissions in Canada.
  
+ ## Three Main Industries of Focus
+ 
+![Image 4](https://user-images.githubusercontent.com/124645643/231343281-fb46095e-e91d-4ae9-ae3d-b489b8b40fbe.png)
 
-
-## 3.	Emissions by Canada Provinces. 
+## 3.	Canada emissions per Province and Territory
  
+ ![Image 5](https://user-images.githubusercontent.com/124645643/231343292-3cc79abf-416e-493f-bd15-7aa8c3c9d61b.png)
  
+Ontario, Quebec and Alberta regions contribute more than 50% of the total emissions in Canada.
  
+ ## Ontario emissions per Industry
  
+ ![Image 6](https://user-images.githubusercontent.com/124645643/231343300-3c69a1d1-6271-4da8-a1e2-708f7839e5d5.png)
  
 Oil and Gas Industry emissions in Ontario were almost constant during the period analyzed whereas the emissions from the Transportation industry increased. Notably, emissions from the Electricity industry have remarkably decreased.
 
+## Alberta emissions per Industry
 
-
-
+![Image 7](https://user-images.githubusercontent.com/124645643/231343309-fe8d8f36-8d6c-4b9a-a6f1-a1dec9f67cb6.png)
 
 Alberta has the highest level of GHC emissions in Canada and this is mainly attributed to the Oil and Gas Industry contributing more than 50% on the emissions .
  
+ ## Quebec emissions per Industry
  
- 
+ ![Image 8](https://user-images.githubusercontent.com/124645643/231343318-4704dad9-1bfa-40e5-b8f8-82dfc7423c88.png)
  
 The Transportation Industry contributes more than 80% of Quebec’s GHC Emissions. 
  
  
+## Temperature data per seasons in the 3 provinces of focus
+
+## Alberta Temperature data per seasons
  
+ ![image 9](https://user-images.githubusercontent.com/124645643/231343330-14bbbde2-8c05-47ff-ba28-0cc6ea7b2201.png)
  
+ ## Ontario Temperature data per seasons
  
-Temperature data per seasons in the 3 provinces of focus
+ ![image 10](https://user-images.githubusercontent.com/124645643/231343343-8347747d-bfba-4259-9811-229b2aaa9d5c.png)
  
+## Quebec Temperature data per seasons
  
+ ![image 11](https://user-images.githubusercontent.com/124645643/231343353-fa1b091a-3ce4-4fc5-a0cf-282a565a8e07.png)
  
 ## Questions addressed 
 ### Q1) Why we chose to SDG 13.
@@ -118,7 +135,7 @@ The Electricity sector consists of combustion and process emissions from utility
 
 - We were also planning to talk about target 13.a” *Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible* ” in a Canadian perspective but only world is available.
 
-- Another difficulty involved reading the UN API file which we decided to leave out and focus on the weather API.  
+- Another difficulty involved reading the UN API file which we decided to leave out and focus on the Canada weather API.  
 
 
 ## Conclusion
