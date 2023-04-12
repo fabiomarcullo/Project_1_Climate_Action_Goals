@@ -128,11 +128,11 @@ The Transport sector includes emissions from the different transport forms used 
 The Electricity sector consists of combustion and process emissions from utility electricity generation, steam production (for sale) and transmission
 
 ## Limitations encountered
-- We wanted to see how Canadian regulations evolved and its possible impacts on the GHG Emissions so we could create a similar graph, but we failed to obtain a data source so we could work on. Failure to exploit the UN API file.
+- We wanted to see how Canadian regulations evolved and its possible impacts on the GHG Emissions so we could create a similar graph, but we failed to obtain a data source we could work on. 
 
 - We were also planning to talk about target 13.a” *Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible* ” in a Canadian perspective but only world is available.
 
-- Another difficulty involved reading the UN API file which we decided to leave out and focus on the Canada weather API.  
+- Another difficulty involved exploiting the UN API file which we decided to leave out and focus on the Canada weather.  
 
 
 ## Conclusion
