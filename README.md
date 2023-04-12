@@ -18,13 +18,13 @@ This project aims to highlight SDG 13, the global climate action goal set by the
 
 
 ## Data sources 
-This project used the database CSV files below to create datasets regarding the trends overtime based on Greenhouse gas emissions for the UN and Canada’s provinces and industries. We also used the weather API CSV to create the temperature dataset showing the temperature trends overtime per season for the different provinces based on GHC and temperature. 
+This project used the following CSV files below to create datasets regarding the trends overtime based on Greenhouse gas emissions for the UN and Canada’s provinces and industries. We also used the weather CSV file to create the temperature dataset showing the temperature trends overtime per season for the different provinces based on GHC and temperature. 
 
  The CSV files solely focus on SDG 13.2 .2” Total Greenhouse emissions per year.”
  
 -	UN Database for the UN goals CSV file 
 - Canada Database for Canada Economic sectors CSV file and Provinces Economic sector CSV file.
-- Kaggle CSV file.
+- Kaggle CSV file for the weather analysis
 
 
 
@@ -33,9 +33,6 @@ The data collected was transformed in order to analyze and visualize with Python
 - **Pandas Process:** With Pandas, we read the CSV files, parsed conditions using the loc function, transposed the data, used the groupby function to filter the industries and provinces, calculated the measures of central tendency using the aggregate function and also computed statistics for the provinces and industries.  We also calculated the average temperature changes for the different seasons in Quebec, Alberta and Ontario.
 
 - **Matplotlib Process:** Using the previously created PANDAS data frames, we created additional layers to parse specific data and this included addition of supplemental groupby functions to organize this data. Once the data was organized we were able to create line and stacked bar graphs using pyplot.
-
-- **API Process:** The dataset includes Canada temperature that contains climate changes in the different provinces over a period of time from 1989 – 2017. We parsed conditions using the loc function. The dataset was also grouped and sorted based on the season’s average temperature and GHC emissions in the different provinces. 
-
 
 ### Insights we had while exploring the data 
 - Covid19 pandemic. We were surprised that the UN targets were not tracked in 2020 during the pandemic There was also a significant reduction in the emissions of C02 in Canada and all the industries in 2020. 
